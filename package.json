@@ -1,0 +1,33 @@
+{
+  "name": "authorization-bot",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "postinstall": "yarn build"
+  },
+  "dependencies": {
+    "@nfteyez/sol-rayz": "^0.8.0",
+    "@nuxtjs/vercel-builder": "^0.22.1",
+    "@solana/web3.js": "^1.31.0",
+    "@types/axios": "^0.14.0",
+    "axios": "^0.24.0",
+    "core-js": "^3.15.1",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "nuxt": "^2.15.7",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "postcss": "^8.3.5"
+  }
+}
